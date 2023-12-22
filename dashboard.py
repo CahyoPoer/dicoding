@@ -227,7 +227,7 @@ def grafik_korelasi(df):
         st.pyplot(fig6)
 
 #Gathering Data
-df_dashboard = pd.read_csv("D:\CAHYO TITIP\PERSIAPAN S2\Belajar Data Science\submission\dashboard\Data_Kualitas_Udara_dan_Suhu_Changping.csv")
+df_dashboard = pd.read_csv("Data_Kualitas_Udara_dan_Suhu_Changping.csv")
 df_dashboard["date_time"] = pd.to_datetime(df_dashboard["date_time"])
 
 #Penentuan batas tanggal input tanggal
